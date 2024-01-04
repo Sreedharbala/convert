@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: rgb(179, 246, 224);
+    height: 100%;
+    width: 100%;
+    border: 1px solid brown;
+}

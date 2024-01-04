@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="deg.css">
+</head>
+<body>
+    <div id="main">
+        <div class="box1">
+          <h2>CENTIGRADE TO FARENHEIT</h2> <br>
+          <input type="text" id="one" placeholder="^C TO FH">
+          <input type="text" id="two" placeholder="f value">
+          <h1 id="output"></h1>
+          <button type="submit" onclick="dispaly()">convert</button>
+              <div class="links">
+               <a href="min.html" >min</a>
+               <a href="sec.html" >foot</a>
+               <a href="deg.html"><SUP>0</SUP>C</a>
+               <a href="convert.html">home</a>
+              </div>
+        </div>      
+    </div> 
+
+
+
+    <script>
+        function dispaly(){
+         var a=document.getElementById("one").value
+         var f=document.getElementById("two").value
+         var c=(f-32)*0.5555555555555556
+
+          let d=document.getElementById("output")
+         d.innerHTML=c
+        //  let f=prompt("enter f value")
+        }
+     </script>          
+</body>
+</html>

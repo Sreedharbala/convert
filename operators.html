@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    a=2 <br>
+    b=5
+    <h2>arithmatic operators</h2>
+    <p id="op"></p>
+    <p id="sub"></p>
+    <p id="mul"></p>
+    <p id="div"></p>
+    <p id="mod"></p>
+    <h2>assignment operators</h2>
+    <p id="+="></p>
+    <p id="-="></p>
+    <p id="*="></p>
+    <p id="/="></p>
+    <p id="%="></p>
+    <h2>comparison opeartors</h2>
+    <p id="=="></p>
+    <p id="==="></p>
+    <p id="!="></p>
+    <p id="<="></p>
+    <p id=">="></p>
+    <h1>logical operators</h1>
+    <p id="&&"></p>
+    <p id="||"></p>
+    <h2>bitwise operators</h2>
+    <p id="&"></p>
+    <p id="|"></p>
+    <p id="<<"></p>
+    <p id=">>"></p>
+
+
+
+    <script>
+        let a=2;
+        let b=5;
+        let c=a+b;
+        let s2=a-b;
+        let d=document.getElementById("op")
+        d.innerHTML="add="+c +"<br>sub="+s2
+        let sub=b-a;
+         let e=document.getElementById("sub")
+        e.innerHTML="sub="+sub;
+        let mul=a*b;
+        let v=document.getElementById("mul")
+        v.innerHTML="mul="+mul;
+        let div=a/b;
+        let h=document.getElementById("div")
+        h.innerHTML="div="+div;
+        let mod=a%b;
+        let q=document.getElementById("mod")
+        q.innerHTML="mod="+ mod;
+
+
+        let equal=(a+=b)
+        let w=document.getElementById("+=")
+        w.innerHTML="+="+equal+" <br>sub="+equal;
+        let equal2=a-=b
+        let x=document.getElementById("-=")
+        x.innerHTML="-="+equal2;
+        let equal3=a*=b
+        let f=document.getElementById("*=")
+        f.innerHTML="*="+equal3;
+        let equal4=a/=b
+        let j=document.getElementById("/=")
+        j.innerHTML="/="+equal4;
+        let equal5=a%=b
+        let k=document.getElementById("%=")
+        k.innerHTML="%="+equal4;
+        let equal6=(a==b)
+        let s=document.getElementById("==")
+        s.innerHTML="=="+equal6;
+        let equal7=(a===b)
+        let m=document.getElementById("===")
+        m.innerHTML="==="+equal6;
+        let equal8=(a!=b)
+        let n=document.getElementById("!=")
+        n.innerHTML="!="+equal8;
+
+        
+        let equal9=(a<=b)
+        let o=document.getElementById("<=")
+        o.innerHTML="lesser="+equal9;
+        let equal10=(a>=b)
+        let gh=document.getElementById(">=")
+        gh.innerHTML="greater="+equal10;
+        let equal11=(a&&b)
+        let hi=document.getElementById("&&")
+        hi.innerHTML="&&"+equal11;
+        let equal12=(a||b)
+        let hy=document.getElementById("||")
+        hy.innerHTML="||"+equal12;
+
+        let equal13=(a&b)
+        let ab=document.getElementById("&")
+        ab.innerHTML="&"+equal13;
+        let equal14=(a|b)
+        let cd=document.getElementById("|")
+        cd.innerHTML="|"+equal14;
+        let equal15=(a<<b)
+        let ef=document.getElementById("<<")
+        ef.innerHTML="<<"+equal15;
+        let equal16=(a>>b)
+        let ij=document.getElementById(">>")
+        ij.innerHTML=">>"+equal16;
+    </script>
+</body>
+</html>
